@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fir-training-f9ed7": {
+      "hosting": {
+        "db-json-etiya": [
+          "fir-training-f9ed7"
+        ]
+      }
+    }
+  }
+}

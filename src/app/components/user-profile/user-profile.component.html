@@ -1,0 +1,22 @@
+<div class="card" style="width: 70%; display: grid;grid-template-columns: 1fr 1fr;">
+  <div>
+    <img style="width: 100%; height: 100%;" [src]="localUser?.img" class="card-img-top" alt="...">
+  </div>
+  <div class="local-user-info" style="display: flex; flex-direction: column; justify-content: space-around;align-items: center;">
+    <h5 class="card-title">{{localUser?.firstName}}</h5>
+    <p class="card-text">{{localUser?.lastName}}</p>
+    <p class="card-text">{{localUser?.userName}}</p>
+    <h5 class="card-title">{{localUser?.email}}</h5>
+    <p class="card-text">{{localUser?.phone}}</p>
+    <!-- <p class="card-text">{{localUser?.addressType}}</p>
+    <p class="card-text">{{localUser?.address}}</p>
+    <p class="card-text">{{localUser?.country}}</p>
+    <p class="card-text">{{localUser?.postalCode}}</p> -->
+    <button class="btn btn-warning" (click)="singOut()" style="width: 100px;">Sign Out</button>
+  </div>
+</div>
+
+
+<!-- <div class="body">
+ 
+</div> -->

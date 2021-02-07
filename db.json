@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "firstName": "Романy",
+      "lastName": "Романов",
+      "userName": "jijjjkjkjk",
+      "phone": "+380950376147",
+      "email": "rendiak24@gmail.com",
+      "password": "",
+      "address": [
+        {
+          "addressType": "home",
+          "address": "address",
+          "country": "ukraine",
+          "city": "lviv",
+          "postalCode": "4521"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "firstName": "Roman",
+      "lastName": "Petruk",
+      "userName": "",
+      "phone": "+380950376147",
+      "email": "rendiak24@gmail.france",
+      "password": "",
+      "address": [
+        {
+          "addressType": "Billing",
+          "address": "Centralna ",
+          "country": "Germany",
+          "city": "Nuernberg",
+          "postalCode": "12548"
+        },
+        {
+          "addressType": "Troleybusna 17",
+          "address": "arxipenka",
+          "country": "Украина",
+          "city": "Ternopil",
+          "postalCode": "64027"
+        },
+        {
+          "addressType": "",
+          "address": "",
+          "city": "",
+          "country": "",
+          "postalCode": "",
+          "id": "_wpuhjkor4"
+        },
+        {
+          "addressType": "",
+          "address": "",
+          "city": "",
+          "country": "",
+          "postalCode": "",
+          "id": "_aifvie7zd"
+        },
+        {
+          "addressType": "Troleybusna 17",
+          "address": "arxipenka",
+          "country": "Украина",
+          "city": "Ternopil",
+          "postalCode": "64027"
+        },
+        {
+          "addressType": "Troleybusna 17",
+          "address": "arxipenka",
+          "country": "Украина",
+          "city": "Ternopil",
+          "postalCode": "64027"
+        }
+      ],
+      "id": 3
+    }
+  ]
+}

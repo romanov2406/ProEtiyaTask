@@ -1,0 +1,20 @@
+form {
+  width: 500px;
+
+  select {
+    border: none;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+  }
+}
+
+input[type="text"] {
+  outline: none;
+  box-shadow: none !important;
+}
+
+.invalidForm {
+  border: 1.2px solid red;
+  box-sizing: border-box;
+}

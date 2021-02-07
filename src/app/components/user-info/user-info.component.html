@@ -1,0 +1,10 @@
+<div class="content">
+  <div class="card" *ngFor="let user of users">
+    <div class="info mt-2 ">
+      <p class="card-text">{{user.lastName | titlecase}}</p>
+      <p class="card-text">{{user.phone}}</p>
+      <p class="card-text">{{user.email | lowercase}}</p>
+    </div>
+    <a style="width: 70px; margin: 0 auto; margin-top: 10px;" [routerLink]="['/user-details',user.id]" class="btn btn-warning">Details</a>
+  </div>
+</div>
