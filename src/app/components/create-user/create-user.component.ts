@@ -51,6 +51,13 @@ export class CreateUserComponent implements OnInit {
 
 
   ngOnInit(): void {
+    this.formBild();
+    this.addressArray = new FormArray([]);
+    this.getStaticUser();
+  }
+
+  
+  formBild(): void {
     // Registrations About User Form
     this.registerForm = this.formBuilder.group({
       firstName: ['', this.defaultValidatorsProperties],
@@ -70,13 +77,10 @@ export class CreateUserComponent implements OnInit {
       postalCode: ['', [Validators.required, Validators.minLength(2), Validators.maxLength(5), Validators.pattern(/[0-9]/)]],
       id: [this.idGenerator()]
     })
-    this.addressArray = new FormArray([]);
-    this.getStaticUser();
   }
 
   addAddress() {
     this.idGenerator();
-  
     this.newAddressForm = this.formBuilder.group({
       addressType: ['', [Validators.required]],
       address: ['', [Validators.required]],
@@ -85,7 +89,6 @@ export class CreateUserComponent implements OnInit {
       postalCode: ['', [Validators.required]],
       id: [this.idGenerator()]
     });
-
     this.addressArray.push(this.newAddressForm);
   }
 
@@ -101,7 +104,7 @@ export class CreateUserComponent implements OnInit {
   getStaticUser(): void {
     this.authService.getJSONUsers().pipe(take(1)).subscribe(data => { this.users = data; });
   }
-  idGenerator () {
+  idGenerator() {
     return '_' + Math.random().toString(36).substr(2, 9);
   };
 
@@ -159,7 +162,5 @@ export class CreateUserComponent implements OnInit {
       })
       .catch(err => console.log(err));
   }
-
-
 }
 

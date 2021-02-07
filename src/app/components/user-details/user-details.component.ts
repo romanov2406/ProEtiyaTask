@@ -15,7 +15,6 @@ import { ActivatedRoute } from '@angular/router';
 export class UserDetailsComponent implements OnInit {
   user: IUser;
   constructor(
-    private store: Store,
     private activRoute: ActivatedRoute,
     public location: Location,
   ) { }
