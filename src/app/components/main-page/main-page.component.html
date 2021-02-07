@@ -5,7 +5,8 @@
   <hr>
   <h3>Edit User Table</h3>
   <div *ngFor="let user of users | search:searchField ">
-    <table class="table">
+    <div style=" box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+    <table class="table mt-5">
       <thead>
         <tr>
           <th scope="col">First Name</th>
@@ -38,7 +39,7 @@
       </tbody>
     </table>
 
-    <table class="table">
+    <table class="table mb-5">
       <thead>
         <tr>
           <th scope="col">Addresse Type</th>
@@ -62,8 +63,8 @@
         </tr>
       </tbody>
     </table>
+  </div>
     <div style="border-bottom:5px solid red;"></div>
-    <hr>
   </div>
 
 </div>

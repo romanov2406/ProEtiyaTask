@@ -20,8 +20,8 @@
     },
     {
       "firstName": "Roman",
-      "lastName": "Petruk",
-      "userName": "",
+      "lastName": "Romanov",
+      "userName": "Ivanovich",
       "phone": "+380950376147",
       "email": "rendiak24@gmail.france",
       "password": "",
@@ -41,20 +41,18 @@
           "postalCode": "64027"
         },
         {
-          "addressType": "",
-          "address": "",
-          "city": "",
-          "country": "",
-          "postalCode": "",
-          "id": "_wpuhjkor4"
+          "addressType": "Архипенка",
+          "address": "mainStrasse",
+          "country": "Украина",
+          "city": "Львів",
+          "postalCode": "64027"
         },
         {
-          "addressType": "",
-          "address": "",
-          "city": "",
-          "country": "",
-          "postalCode": "",
-          "id": "_aifvie7zd"
+          "addressType": "Архипенка",
+          "address": "щшол",
+          "country": "Украина",
+          "city": "Львів",
+          "postalCode": "64027"
         },
         {
           "addressType": "Troleybusna 17",
